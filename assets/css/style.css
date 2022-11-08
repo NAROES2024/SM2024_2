@@ -1585,8 +1585,38 @@ section {
   transition: 0.3s;
 }
 
-#footer .social-links a:hover {
+/* #footer .social-links a:hover {
   background: #63C5DA;
+  color: #fff;
+  text-decoration: none;
+} */
+
+#footer .twitter:hover{
+  background: #00acee;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .facebook:hover{
+  background: #3b5998;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .instagram:hover{
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: #fff;
+  text-decoration: none;
+}
+/* #footer .google-plus:hover{
+  background: #db4a39;
+  color: #fff;
+  text-decoration: none;
+} */
+#footer .linkedin:hover{
+  background: #0A66C2;
   color: #fff;
   text-decoration: none;
 }
