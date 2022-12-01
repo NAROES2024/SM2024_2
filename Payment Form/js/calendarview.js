@@ -16,6 +16,7 @@
 //
 //   www.dynarch.com/projects/calendar
 //
+
 var Calendar = Class.create();
 
 //------------------------------------------------------------------------------

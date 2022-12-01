@@ -1,5 +1,5 @@
-@import "/form-resources/dist/styles/control_appointment.css";
-@import "/form-resources/dist/styles/control_inline.css";
+@import "/stylebuilder/control_appointment.css";
+@import "/stylebuilder/control_inline.css";
 * {
 	box-sizing: border-box;
 }

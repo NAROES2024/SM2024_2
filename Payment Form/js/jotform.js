@@ -4098,7 +4098,14 @@ var JotForm = {
         JotForm.fillFieldElementIfEmpty(firstName, names[0]);
 
     },
-
+    escapeHtml: function (text) {
+        return text
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+    },
     /**
      * Fill fields from the get values prepopulate
      */
@@ -4129,6 +4136,8 @@ var JotForm = {
             if (typeof pair.value === 'object') {
                 pair.value = pair.value[0] || "";
             }
+
+            pair.value = JotForm.escapeHtml(pair.value);
 
             input = $$('.form-slider' + n)[0]; //Add classname in builder?
             if (input) {
