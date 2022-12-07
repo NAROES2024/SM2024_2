@@ -31,7 +31,12 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
-
+/*-------------------------------------------------------------
+# Change in font size of content in about us page
+-------------------------------------------------------------*/
+.about .content ul li {
+  font-size: larger;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1424,6 +1429,7 @@ section {
   transition: 0.4s;
   border-radius: 50px;
 }
+
 
 .contact .php-email-form button[type=submit]:hover {
   background: #63C5DA;
