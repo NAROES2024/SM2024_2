@@ -22,7 +22,10 @@ a:hover {
   color: #63C5DA;
   text-decoration: none;
 }
-
+.images_1{
+  width: 100%;
+  height: auto;
+}
 h1,
 h2,
 h3,
