@@ -1845,4 +1845,25 @@ section {
 
 .Spons{
   height: 500px;
+} 
+
+/* our sponsors in index page */
+.spons_width{
+  width: 70%;
+}
+
+.my-2{
+  justify-content: center;
+}
+
+.spons_width2{
+  width: 70%;
+}
+
+.spons_width3{
+  width: 33.333%;
+}
+
+.spons_txt{
+  text-align: center;
 }
