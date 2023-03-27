@@ -517,6 +517,17 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+
+.notice{
+  text-align: center;
+  background-color: #1338BE;
+  color: white;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
 section.sponsors{
   padding: 5px 0;
 }
