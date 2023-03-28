@@ -526,6 +526,7 @@ h6 {
   align-items: center;
   justify-content: center;
   border-radius: 2px;
+  margin: 0 75px 0 75px;
 }
 
 section.sponsors{
@@ -1877,4 +1878,18 @@ section {
 
 .spons_txt{
   text-align: center;
+}
+
+.other_sponsors{
+  display: flex;
+  flex-direction: column;
+}
+
+/* courses.html schedule space */
+.schedule{
+  background-color: rgb(184, 184, 184);
+  height: 60vh;
+  margin: 30px 76px;
+  text-align: center;
+  justify-content: center;
 }
