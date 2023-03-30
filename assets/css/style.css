@@ -1893,3 +1893,7 @@ section {
   text-align: center;
   justify-content: center;
 }
+
+.schedule img{
+  height: 60vh;
+}
