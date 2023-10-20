@@ -966,8 +966,21 @@ section {
   font-size: 14px;
   background: #1338be;
   padding: 7px 14px;
+  margin: 10px;
   color: #fff;
   margin: 0;
+}
+
+.viewbtn {
+  margin-left: 160px;
+  background: #1338be;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
 }
 
 .courses .course-content .price {
